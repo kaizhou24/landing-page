@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/*
+UNIVERSAL RESETS
+*/
+
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+
+/*
+BODY
+*/
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*
+MAIN
+*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+/*
+HEADER
+*/
+
+header {
+    background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/*
+HERO SPACE
+*/
+
+.hero-space {
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: none;
+    padding: 6px 24px;
+    border-radius: 6px;
+}
+
+.right > img {
+    background-color: #6D747D;
+}
+
+
+
+/*
+INFORMATION SECTION
+*/
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+}
+
+figure > img {
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+
+
+/*
+QUOTE SECTION
+*/
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote > p {
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.quote > p:first-of-type {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+
+/*
+CALL-TO-ACTION SECTION
+*/
+
+.splash {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.splash > button {
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #3882f6;
+    color: white;
+}
+
+
+
+/*
+FOOTER
+*/
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
