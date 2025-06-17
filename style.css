@@ -149,10 +149,11 @@ INFORMATION SECTION
     width: 100vw;
     gap: 4vw;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 figure {
-    max-width: 8vw;
+    width: 144px;
     display: flex;
     flex-direction: column;
 }
@@ -217,6 +218,7 @@ CALL-TO-ACTION SECTION
     align-items: center;
     height: 184px;
     padding: 0 128px;
+    flex-wrap: wrap;
 }
 
 .bold {
