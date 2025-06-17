@@ -79,6 +79,7 @@ HERO SPACE
     display: flex;
     color: #f9faf8;
     flex: 1;
+    padding: 40px 20vw;    
 }
 
 .hero-main-text {
@@ -90,6 +91,17 @@ HERO SPACE
 .hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 100px;
+    margin-bottom: 12px;
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.right {
+    display: flex;
 }
 
 .left > button {
@@ -102,6 +114,7 @@ HERO SPACE
 
 .right > img {
     background-color: #6D747D;
+    flex: 1;
 }
 
 
