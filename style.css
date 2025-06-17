@@ -114,21 +114,37 @@ INFORMATION SECTION
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20vw;
 }
 
 .title {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding-bottom: 16px;
 }
 
 .container {
+    flex: 1;
     display: flex;
+    width: 100vw;
+    gap: 4vw;
+    justify-content: center;
+}
+
+figure {
+    max-width: 12vw;
+    display: flex;
+    flex-direction: column;
 }
 
 figure > img {
     border-style: solid;
     border-color: #3882f6;
+    border-radius: 8px;
+    aspect-ratio: 1 / 1;
 }
 
 
