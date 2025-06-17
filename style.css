@@ -80,7 +80,8 @@ HERO SPACE
     display: flex;
     color: #f9faf8;
     flex: 1;
-    padding: 40px 20vw;    
+    padding: 40px 20vw 120px 20vw;    
+    gap: 56px;
 }
 
 .hero-main-text {
@@ -116,6 +117,9 @@ HERO SPACE
 .right > img {
     background-color: #6D747D;
     flex: 1;
+    display: flex;
+    line-height: 190px;
+    text-align: center;
 }
 
 
@@ -129,7 +133,7 @@ INFORMATION SECTION
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 40px 20vw;
+    padding: 40px 30vw;
 }
 
 .title {
@@ -148,7 +152,7 @@ INFORMATION SECTION
 }
 
 figure {
-    max-width: 12vw;
+    max-width: 8vw;
     display: flex;
     flex-direction: column;
 }
@@ -158,6 +162,7 @@ figure > img {
     border-color: #3882f6;
     border-radius: 8px;
     aspect-ratio: 1 / 1;
+    margin-bottom: 8px;
 }
 
 
@@ -173,7 +178,7 @@ QUOTE SECTION
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 20vw;
+    padding: 100px 30vw;
 }
 
 .quote > p {
