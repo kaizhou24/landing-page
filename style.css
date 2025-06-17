@@ -40,7 +40,7 @@ ul {
     display: flex;
     gap: 16px;
     align-items: center;
-    padding: 8px 20vw;
+    padding: 24px 20vw 0 20vw;
 }
 
 li {
@@ -198,6 +198,7 @@ CALL-TO-ACTION SECTION
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 88px 20vw;
 }
 
 .splash {
@@ -205,10 +206,17 @@ CALL-TO-ACTION SECTION
     background-color: #3882f6;
     color: white;
     border-radius: 8px;
+    flex: 1;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 184px;
+    padding: 0 128px;
 }
 
 .bold {
     font-weight: 700;
+    font-size: 20px;
 }
 
 .thin {
@@ -218,10 +226,12 @@ CALL-TO-ACTION SECTION
 .splash > button {
     border: white;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 8px;
     background-color: #3882f6;
     color: white;
+    margin-left: auto;
+    padding: 12px 40px;
 }
 
 
