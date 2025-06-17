@@ -30,18 +30,6 @@ body {
 
 
 /*
-MAIN
-*/
-
-.main {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-
-
-/*
 HEADER
 */
 
@@ -70,6 +58,16 @@ a {
     font-weight: bold;
 }
 
+/*
+MAIN
+*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 
 
 /*
@@ -80,6 +78,7 @@ HERO SPACE
     background-color: #1f2937;
     display: flex;
     color: #f9faf8;
+    flex: 1;
 }
 
 .hero-main-text {
@@ -114,6 +113,7 @@ INFORMATION SECTION
 .information {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .title {
@@ -139,6 +139,7 @@ QUOTE SECTION
 
 .quote {
     background-color: #e5e7eb;
+    flex: 1;
 }
 
 .quote > p {
@@ -157,6 +158,11 @@ QUOTE SECTION
 /*
 CALL-TO-ACTION SECTION
 */
+
+.call-to-action {
+    display: flex;
+    flex: 1;
+}
 
 .splash {
     display: flex;
